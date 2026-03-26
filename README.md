@@ -1,3 +1,14 @@
+## Before Getting started
+
+### You should first install node.js as package manager installer from this site --> https://nodejs.org/en
+
+### Secondly, head to your workspace directory and open cmd as a terminal so you can check if any of these(npm, npx, node) is existed or not. It will be better if you check them all by writing one of the above word and add -v e.g. --> npm -v and so on
+
+### Third step is to create your react.ts app by writing that command in your headed dir's terminal --> npx create-next-app@latest , you can name it "react-ts-practice" to match with mine as when you pull it down from the repo, it won't cause errors.
+
+### Last one, you can peacfully pull the project from github and enjoy as much as you can, You can get started by excuting following bits
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +45,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# react-typescript-practice
