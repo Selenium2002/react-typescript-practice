@@ -4,7 +4,7 @@ type ListParams = {
 
 const List = (props:ListParams)=> {
   return(
-    <h2 className="text-2xl text-gray-600">{props.description}</h2>
+    <h2 className="text-2xl text-gray-300">{props.description}</h2>
   )
 }
 
