@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Description from "@/components/Description";
+import Counter from "@/components/Counter";
 import Link from "next/link";
 
 const Home = ()=> {
@@ -13,6 +14,7 @@ const Home = ()=> {
           {/* Using the ternary operator in typescript */}
           {/* {hideDescription? <Description /> : null} */}
           {hideDescription && <Description />}
+          <Counter />
         </div>
         <Link href="/about" className="text-blue-500 text-xl">Go To About</Link>
       </main>
