@@ -7,7 +7,7 @@ const Home = ()=> {
    const hideDescription = true;
   return (
     
-      <main className="bg-gray-900 text-amber-800 h-screen">
+      <main className="bg-gray-900 text-amber-800 h-max w-screen">
         <div className="mb-5">
           <h1 className="text-3xl text-teal-200">Home Page</h1>
           <Header text="Header Component" />
@@ -16,7 +16,14 @@ const Home = ()=> {
           {hideDescription && <Description />}
           <Counter />
         </div>
-        <Link href="/about" className="text-blue-500 text-xl">Go To About</Link>
+        
+        <div className="mb-5">
+          <Link href="/about" className="text-blue-500 text-xl">Go To About</Link>
+        </div>
+
+        <div>
+          <Link href="/buttons" className="text-blue-500 text-xl mb-5">Go To Buttons</Link>
+        </div>
       </main>
   );
 }
